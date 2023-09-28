@@ -16,3 +16,18 @@ const everydayPack = new Backpack(
 
 console.log("The everydayPack object:", everydayPack);
 console.log("The pocketNum value:", everydayPack.pocketNum);
+
+const trainingPack = new Backpack(
+  "Training Backpack",
+  30,
+  "black",
+  20,
+  20,
+  20,
+  true
+);
+
+console.log("The trainingPack object:", trainingPack);
+console.log("The pocketNum value:", trainingPack.lidOpen);
+
+export default Backpack;
